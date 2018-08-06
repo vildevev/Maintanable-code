@@ -11,7 +11,7 @@ namespace ConsoleAppExercises
         static void Main(string[] args)
         {
         }
-        public static int GetFirstMatchingIndex(List<int> nums, int valueToMatch) 
+        public static IEnumerable<int> GetFirstMatchingIndex(IEnumerable<int> nums, int valueToMatch) 
         { 
             int matchingIndex = -1; 
  
@@ -31,6 +31,7 @@ namespace ConsoleAppExercises
                        return matchingIndex;
                     } 
              } 
+             return matchingIndex;
         }
     }
 }

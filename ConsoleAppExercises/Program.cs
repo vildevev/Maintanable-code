@@ -10,6 +10,7 @@ namespace ConsoleAppExercises
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

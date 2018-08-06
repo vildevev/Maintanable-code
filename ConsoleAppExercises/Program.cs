@@ -33,5 +33,17 @@ namespace ConsoleAppExercises
              } 
              return matchingIndex;
         }
+        public static void DoStuff() 
+        { 
+            Console.WriteLine("Hello Cohort!"); 
+            Thread.Sleep(2000); 
+ 
+            var jobTypes = new string[] { "PM", "Dev", "Other" }; 
+            Console.WriteLine("The job types are:"); 
+            foreach (var type in jobTypes) 
+                Console.WriteLine(type); 
+ 
+            Console.WriteLine("Goodbye Cohort!"); 
+        }
     }
 }
